@@ -13,3 +13,4 @@ withEnv( ["PATH+MAVEN_HOME=${tool mvn_version}/bin"] ) {
   bat "mvn -Dmaven.test.failure.ignore=true clean package"
  }
 }
+}
